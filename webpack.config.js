@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require('path');
 const { default: postcss } = require('postcss');
+// const Handlebars = require("handlebars");
 
 const mode = process.env.NODE_ENV || 'development';
 
